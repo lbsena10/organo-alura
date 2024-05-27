@@ -1,9 +1,12 @@
-import Banner from './compontentes/Banner/Banner'
+import Banner from './compontentes/Banner'
+import CampoTexto from './compontentes/CampoTexto'
+import Formulario from './compontentes/Formulario'
 
 function App() {
 	return (
 		<div className="App">
 			<Banner />
+			<Formulario />
 		</div>
 	)
 }
